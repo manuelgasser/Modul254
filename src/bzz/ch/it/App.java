@@ -18,6 +18,7 @@ public class App {
     }
 
     public static void main(String[] args) {
+        //Main
         JFrame jframe = new JFrame("Support");
         jframe.setContentPane(new App().panel1);
         jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
